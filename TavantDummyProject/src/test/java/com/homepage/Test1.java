@@ -18,7 +18,7 @@ public class Test1 {
 		driver.get("https://www.google.com/");
 		driver.manage().window().maximize();
 		Thread.sleep(3000);
-		driver.findElement(By.id("input")).sendKeys("Manual testing");
+//		driver.findElement(By.id("input")).sendKeys("Manual testing");
 		
 		
 		DesiredCapabilities cap = new DesiredCapabilities();
